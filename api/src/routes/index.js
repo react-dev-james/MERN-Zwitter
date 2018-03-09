@@ -14,7 +14,7 @@ commonRoutes.get('/', authMiddleware, (request, response) => {
     let responseData = {
         success: false,
 
-        errors: {}
+        //errors: {}
     };
 
     response.json(responseData);
