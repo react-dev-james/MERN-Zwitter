@@ -42,7 +42,9 @@ A basic clone of Twitter (Boilerplate App) using - Node, Express, MongoDB, React
 - **redux** (Predictable state container for JavaScript apps)
 - redux-devtools-extension (Redux DevTools extension)
 - **redux-thunk** (Thunk middleware for Redux)
+## 🏗 ScreenShort
 
+![Screen](https://github.com/DedicatedWebStar/MERN-Zwitter/blob/master/screenshort.png?raw=true)
 
 ## 🏗 Core Structure
     zwitter
