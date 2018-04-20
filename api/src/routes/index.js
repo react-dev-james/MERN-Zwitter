@@ -13,7 +13,6 @@ let commonRoutes = express.Router();
 commonRoutes.get('/', authMiddleware, (request, response) => {
     let responseData = {
         success: false,
-
         errors: {}
     };
 
