@@ -11,6 +11,7 @@ let TweetSchema = mongoose.Schema({
     createdAt: Date
 });
 
+
 let Tweet = mongoose.model('tweets', TweetSchema);
 
 module.exports = Tweet;
