@@ -19,6 +19,9 @@ const App  = () => (
             <Route exact path="/" component={ TweetListContainer } />
         
             <Route path="/tweet/add" component={ TweetAdd } />
+            <Route path="/tweet/edit" component={ TweetAdd } />
+            <Route path="/tweet/login" component={ TweetAdd } />
+            <Route path="/tweet/Signup" component={ TweetAdd } />
         
             <Route path="/tweet/:tweetId" component={ TweetViewContainer } />
             <Route path="/user/login" component={ UserLogin } />
