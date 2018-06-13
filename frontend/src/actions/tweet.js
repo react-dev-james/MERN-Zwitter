@@ -45,6 +45,7 @@ export function fetchTweet(tweetId) {
                         dispatch({
                             type: SET_TWEET,
                             tweetId: TweetID,
+                            flag: true,
                             tweet: response.data
                         });
                     }
