@@ -42,6 +42,7 @@ class Layout extends Component {
                 >
                     <MenuItem onTouchTap={ this.handleDrawerToggle } containerElement={<Link to="/" />}>🏠 Home</MenuItem>
                     <MenuItem onTouchTap={ this.handleDrawerToggle } containerElement={<Link to="/about" />}>ℹ️ About</MenuItem>
+                    <MenuItem onTouchTap={ this.handleDrawerToggle } containerElement={<Link to="/help" />}>Help</MenuItem>
                 </Drawer>
 
                 { this.props.children }
