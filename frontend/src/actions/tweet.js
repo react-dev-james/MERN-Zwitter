@@ -18,6 +18,7 @@ export function fetchTweets() {
                     if(response.data.length > 0) {
                         dispatch({
                             type: SET_TWEETS,
+                            tweetId: TweetID,
                             tweets: response.data
                         });
                     }
